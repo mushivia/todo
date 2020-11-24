@@ -5,6 +5,7 @@ class TodosController < ApplicationController
 
   # GET /todos/new
   def new
+    
   #@goalに紐付いたtodosをnewしています
     @todo = @goal.todos.new
   end
