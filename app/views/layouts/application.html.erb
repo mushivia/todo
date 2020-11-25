@@ -12,13 +12,13 @@
 
   <body>
     <%= render "layouts/header" %>
-    <%= render "layouts/footer" %>
+    <%= render "layouts/flash" %>
     <div id="modalArea"></div>
     <main>
     <div class="container-fruid h-100 p-2 d-flex flex-column">
       <%= yield %>
     </div> 
     </main>
-    <%= render "layouts/flash" %>
+    <%= render "layouts/footer" %>
   </body>
 </html>
